@@ -1,26 +1,14 @@
 import pandas as pd
 import json
+from data_handler import DataHandler
 
+dh = DataHandler()
 df = pd.read_csv('vaccine_data/country_vaccinations.csv')
 
 def get_data(country):
-    #filter data
-    data = df[df['iso_code'] == str(country)]
+    return DataHandler.get_data_by_country_iso(df, country)
     
-    #get full country for json response
-    full_country = data.iat[0, 0]
-
-    #get the columns we want. 
-    filtered_data = data[['date', 'total_vaccinations', 'daily_vaccinations', 'people_vaccinated', 'people_fully_vaccinated','total_vaccinations_per_hundred','people_vaccinated_per_hundred', 'people_fully_vaccinated_per_hundred', 'source_name', 'vaccines' ]].fillna('Missing Data')
-
-    #format the data frame into json
-    formatted_filtered_data = filtered_data.to_dict('records')
-    response_dictionary = {}
-    response_dictionary['country'] = full_country
-    response_dictionary['vaccine_data'] = formatted_filtered_data
-
-
-    return response_dictionary
+get_data("USA")
 
 def get_top_ten():
     #get countries based on name
