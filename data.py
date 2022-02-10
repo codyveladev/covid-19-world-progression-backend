@@ -6,9 +6,7 @@ dh = DataHandler()
 df = pd.read_csv('vaccine_data/country_vaccinations.csv')
 
 def get_data(country):
-    return DataHandler.get_data_by_country_iso(df, country)
-    
-get_data("USA")
+    return dh.get_data_by_country_iso(df, country)
 
 def get_top_ten():
     #get countries based on name

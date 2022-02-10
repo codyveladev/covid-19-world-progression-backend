@@ -6,6 +6,11 @@ class DataHandler:
         return 
     '''
     Function: get_data_by_country_iso
+    Parameters: 
+        - df: pandas dataframe of csv data 
+        - country: string denoting the ISO code e.g "USA" 
+    Returns: 
+        - 
     '''
     def get_data_by_country_iso(df, country): 
         country_data_by_iso = {}
