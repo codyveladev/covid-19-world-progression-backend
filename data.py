@@ -1,8 +1,8 @@
 import pandas as pd
 import json
-from dh import DataHandler
+from dh import DH
 
-dh = DataHandler()
+dh = DH()
 df = pd.read_csv('vaccine_data/country_vaccinations.csv')
 
 def get_data(country):

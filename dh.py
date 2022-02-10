@@ -1,7 +1,7 @@
 import numpy as np 
 
 
-class DataHandler: 
+class DH: 
     def __init__(self): 
         return 
     '''
