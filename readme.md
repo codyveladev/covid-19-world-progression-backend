@@ -20,7 +20,8 @@ This project leverages the <a href="https://www.kaggle.com/gpreda/covid-world-va
 
 <h2 id="docs">Docs</h2>
 <h4>Endpoints: </h4>
-```/api/country/:ISO```
+
+`api/country/:ISO`
 Returns the vaccine information given a ISO code to a country.
 
 `/api/top/total-values`
@@ -33,6 +34,6 @@ Returns how many countries are using a specific vaccine.
 
 <h2 id="contact">Contact</h2>
 
-📬 <a href="mailto:codyvela72@gmail.com">Email</a>
-🔗 <a href="https://www.linkedin.com/in/cody-vela/">LinkedIn</a>
-🔗 <a href="https://www.cody-vela.com">Website</a>
+- 📬 <a href="mailto:codyvela72@gmail.com">Email</a>
+- 🔗 <a href="https://www.linkedin.com/in/cody-vela/">LinkedIn</a>
+- 🔗 <a href="https://www.cody-vela.com">Website</a>
