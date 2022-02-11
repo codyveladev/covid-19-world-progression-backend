@@ -1,7 +1,7 @@
 <h4 align="center"> COVID-19 WORLD VACCINE PROGRESSION </h4>
 
 <p align="center">
-<strong><a href="about">About</a></strong>
+<strong><a href="#about">About</a></strong>
 |
 <strong><a href="#docs">Docs</a></strong>
 |
@@ -22,12 +22,15 @@ This project leverages the <a href="https://www.kaggle.com/gpreda/covid-world-va
 <h4>Endpoints: </h4>
 
 `api/country/:ISO`
+
 Returns the vaccine information given a ISO code to a country.
 
 `/api/top/total-values`
+
 Returns the top ten countries with the most vaccines adminstered.
 
 `/api/count/country-vaccine`
+
 Returns how many countries are using a specific vaccine.
 
 ---
