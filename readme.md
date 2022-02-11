@@ -1,4 +1,4 @@
-<h4 align="center"> COVID-19 WORLD VACCINE PROGRESSION </h4>
+<h1 align="center"> COVID-19 WORLD VACCINE PROGRESSION </h1>
 
 <p align="center">
 <strong><a href="#about">About</a></strong>
