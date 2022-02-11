@@ -21,7 +21,7 @@ This project leverages the <a href="https://www.kaggle.com/gpreda/covid-world-va
 <h2 id="docs">Docs</h2>
 <h4>Endpoints: </h4>
 
-`api/country/:ISO`
+`/api/country/:ISO`
 
 Returns the vaccine information given a ISO code to a country.
 
