@@ -1,7 +1,6 @@
 try: 
     from app import app
     import unittest
-    import requests
     import json
 except Exception as e: 
     print("Some modules are missing {}".format(e))
