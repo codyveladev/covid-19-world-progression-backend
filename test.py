@@ -5,8 +5,6 @@ try:
 except Exception as e: 
     print("Some modules are missing {}".format(e))
 
-
-
 class FlaskRestTest(unittest.TestCase):
     #util function
     def route_success_util(self, route): 
