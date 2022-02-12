@@ -20,3 +20,7 @@ def set_top_ten():
 @app.route('/api/count/country-vaccine')
 def set_count_of_vaccines_in_countries():
     return get_count_of_vaccines_in_countries()
+
+#for test cases
+if __name__ == '__main__': 
+    app.run(host='0.0.0.0')
