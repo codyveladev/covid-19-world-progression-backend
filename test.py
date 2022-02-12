@@ -11,7 +11,6 @@ class FlaskRestTest(unittest.TestCase):
         tester = app.test_client(self)
         response = tester.get(route)
         response_code = response.status_code
-        #Ensure the route is working 
         return response_code
     
     #test the index route 
