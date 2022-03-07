@@ -5,10 +5,6 @@ from data import *
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/')
-def hello():
-    return '<h1>Hello World! </h1>'
-
 @app.route('/api/country/<iso_code>')
 def index(iso_code):
     return get_data(iso_code)
