@@ -12,11 +12,6 @@ class FlaskRestTest(unittest.TestCase):
         response = tester.get(route)
         response_code = response.status_code
         return response_code
-    
-    #test the index route 
-    def test_index_route_success(self): 
-        response_code = self.route_success_util('/')
-        self.assertEqual(str(response_code), "200")
 
     #Ensure the response is JSON 
     def test_iso_code_content(self): 
