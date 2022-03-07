@@ -1,5 +1,4 @@
 import pandas as pd
-import json
 
 df = pd.read_csv('vaccine_data/country_vaccinations.csv')
 
