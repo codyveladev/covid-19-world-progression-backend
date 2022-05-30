@@ -77,10 +77,9 @@ def get_types_of_vaccine_used_in_countries():
     for i in range(len(list_of_vaccines)):
         #set variable names
         current_word = list_of_vaccines[i]
-        comma = ','
 
         #check if word has a comma
-        if current_word.find(comma) != -1:
+        if current_word.find(',') != -1:
             #split the string based on commas
             current_word_split_by_commas = current_word.split(", ")
 
